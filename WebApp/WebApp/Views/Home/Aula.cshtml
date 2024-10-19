@@ -1,0 +1,22 @@
+﻿@model AulaModel
+
+<h1>Olá Turma</h1>
+<p>Seja bem-vindo a aula de ASP.NET Core</p>
+
+<div class="row">
+    <dt>
+        @Html.DisplayNameFor(model => model.Nome)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.Nome)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.Turma)
+    </dt>
+    
+    <dd>
+        @Html.DisplayFor(model => model.Turma)
+    </dd>
+</dl>
+</div>
